@@ -12,11 +12,13 @@ a {
     text-decoration: none;
 }
 
+/** ==============HEADER================ */
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.167;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -54,6 +56,10 @@ color: #4d5ae5;
     color: #404BBF;
 }
 
+/** ============================== */
+
+/** ==============MAIN================ */
+
 .hero {
     background-color: #2e2f42;
 }
@@ -61,7 +67,7 @@ color: #4d5ae5;
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.071;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -73,6 +79,13 @@ color: #4d5ae5;
     background:#4d5ae5;
 }
 
+.visually-hidden {
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -82,7 +95,6 @@ color: #4d5ae5;
 }
 
 .features-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -92,9 +104,82 @@ color: #4d5ae5;
 .tiam-title {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/** ============================== */
+
+/** ==============FOOTER================ */
+
+.footer {
+    background: #2e2f42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-logo-part {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+/** ============================== */
