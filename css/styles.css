@@ -12,8 +12,6 @@ a {
     text-decoration: none;
 }
 
-/** ==============HEADER================ */
-
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -55,10 +53,6 @@ color: #4d5ae5;
 .header-menu-link:focus {
     color: #404BBF;
 }
-
-/** ============================== */
-
-/** ==============MAIN================ */
 
 .hero {
     background-color: #2e2f42;
@@ -154,10 +148,6 @@ color: #4d5ae5;
     color: #434455;
 }
 
-/** ============================== */
-
-/** ==============FOOTER================ */
-
 .footer {
     background: #2e2f42;
 }
@@ -182,5 +172,3 @@ color: #4d5ae5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
-/** ============================== */
